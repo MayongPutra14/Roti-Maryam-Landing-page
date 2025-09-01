@@ -2,9 +2,7 @@
 --color-red-700: hsl(0, 96%, 32%);
 --color-amber-500: hsl(34, 44%, 69%);
 --color-amber-light-500: hsl(34, 44%, 78%);
-
---box-shadow-product-card: 0px 5px 50px hsla(0, 0, 0, 40%);
---box-shadow-navbar: 0px 2px 10px hsla(0, 0, 0, 75%);
+--color-white: #ffffff;
 
 /* spacing */
 --spacing-20: calc(1rem + 4px);
@@ -29,10 +27,13 @@
 }
 
 body{
-    margin: 0;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0;  
 }
 
 h1,h2,h3,h4,h6{
+    font-weight: 700;
     margin: 0;
 }
 
