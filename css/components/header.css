@@ -2,7 +2,7 @@
   background-color: var(--color-red-700);
   max-width: 100%;
   padding: 0.2rem 2rem;
-  box-shadow: 0 2px 10px rgb(0, 0, 0, 1);
+  box-shadow: 0 2px 10px rgb(0, 0, 0, .5);
   position: fixed;
   width: 100%;
 }
@@ -26,6 +26,7 @@
 
 /* Navbar-links: mobile */
 .header nav ul li {
+  font-size: larger;
   /* display: none; */
   list-style-type: none;
   padding: .5rem 0rem .5rem 1rem ;
@@ -38,7 +39,7 @@
   transition: all 0.3ms ease;
 }
 
-.header nav ul li img {
+.header nav img, ul li img {
   cursor: pointer;
 }
 
