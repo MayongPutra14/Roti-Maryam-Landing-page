@@ -5,6 +5,7 @@
   box-shadow: 0 2px 10px rgb(0, 0, 0, .5);
   position: fixed;
   width: 100%;
+  z-index: 9999;
 }
 
 .header nav {
@@ -16,11 +17,13 @@
 }
 
 /* Navbar logo */
-.header nav h2 {
+.header nav p {
+  font-size: 1.5rem;
+  font-weight: bold;
   color: var(--color-amber-light-500);
 }
 
-.header nav h2 span {
+.header nav p span {
   color: var(--color-white);
 }
 
