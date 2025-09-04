@@ -1,0 +1,57 @@
+.our-products {
+  padding-top: var(--spacing-112);
+}
+
+.our-products .variant-rasa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: var(--spacing-20);
+  gap: 40px;
+}
+
+.our-products .variant-rasa .card-products {
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--color-red-700);
+  border-radius: 20px;
+  border: transparent;
+  box-shadow: rgba(0, 0, 0, 0.5) -3px -3px 8px;
+  transition: all .2s ease;
+}
+
+.our-products .variant-rasa .card-products .card-details {
+  display: flex;
+  padding: var(--spacing-20);
+  justify-content: space-between;
+}
+
+.our-products .variant-rasa .card-products .card-details .name-stars,
+.btn-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-20);
+}
+
+.our-products .variant-rasa .card-products .card-details h6 {
+  color: var(--color-amber-light-500);
+}
+
+
+
+.our-products .variant-rasa .card-products:hover {
+  box-shadow: rgba(0, 0, 0, 0.8) 3px 5px 15px;
+
+}
+
+@media (min-width: 48rem) {
+  .our-products .variant-rasa {
+    padding-top: var(--spacing-112);
+  }
+
+  .our-products .variant-rasa .card-products {
+    width: 40%;
+  }
+}

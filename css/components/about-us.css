@@ -20,12 +20,12 @@
   position: relative;
 }
 .about-us .image-about img {
-  filter: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(rgba(0, 0, 0, 0.4) 0px 3px 15px);
 }
 
 .about-us .bgr-rm {
   position: absolute;
-  right: 3  rem;
+  right: 3rem;
   top: 0;
   width: 25rem;
   height: 20rem;
