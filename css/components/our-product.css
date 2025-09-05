@@ -11,23 +11,23 @@
   gap: 40px;
 }
 
-.our-products .variant-rasa .card-products {
+.variant-rasa .card-products {
   cursor: pointer;
   overflow: hidden;
   background-color: var(--color-red-700);
   border-radius: 20px;
   border: transparent;
-  box-shadow: rgba(0, 0, 0, 0.5) -3px -3px 8px;
-  transition: all .2s ease;
+  box-shadow: rgba(0, 0, 0, 0.5) -3px -3px 15px;
+  transition: all 0.2s ease;
 }
 
-.our-products .variant-rasa .card-products .card-details {
+.card-products .card-details {
   display: flex;
   padding: var(--spacing-20);
   justify-content: space-between;
 }
 
-.our-products .variant-rasa .card-products .card-details .name-stars,
+.card-details .name-stars,
 .btn-price {
   display: flex;
   flex-direction: column;
@@ -39,11 +39,9 @@
   color: var(--color-amber-light-500);
 }
 
-
-
 .our-products .variant-rasa .card-products:hover {
-  box-shadow: rgba(0, 0, 0, 0.8) 3px 5px 15px;
-
+  box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 15px;
+  transform: translateY(-2px);
 }
 
 @media (min-width: 48rem) {

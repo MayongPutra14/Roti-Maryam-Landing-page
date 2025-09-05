@@ -19,20 +19,7 @@
 .image-about {
   position: relative;
 }
-.about-us .image-about img {
-  filter: drop-shadow(rgba(0, 0, 0, 0.4) 0px 3px 15px);
-}
 
-.about-us .bgr-rm {
-  position: absolute;
-  right: 3rem;
-  top: 0;
-  width: 25rem;
-  height: 20rem;
-  background-color: var(--color-red-700);
-  z-index: -1;
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-}
 
 @media (min-width: 48rem) {
   .about-us {
@@ -49,14 +36,6 @@
   .image-about {
     flex: 1;
     padding-top: 5rem;
-  }
-
-  .about-us .bgr-rm {
-    right: 0;
-    top: 9rem;
-    width: 38rem;
-    height: 20rem;
-    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   }
 
   .about-us .desc-about button {
