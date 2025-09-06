@@ -1,14 +1,8 @@
-.our-products {
-  padding-top: var(--spacing-112);
-}
-
 .our-products .variant-rasa {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   padding-top: var(--spacing-20);
-  gap: 40px;
+  gap: calc(var(--spacing-20) + 10px);
 }
 
 .variant-rasa .card-products {
@@ -29,6 +23,7 @@
 
 .card-details .name-stars,
 .btn-price {
+  font-size: var(--h6);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -46,10 +41,10 @@
 
 @media (min-width: 48rem) {
   .our-products .variant-rasa {
-    padding-top: var(--spacing-112);
+    padding-top: var(--spacing-80);
   }
 
   .our-products .variant-rasa .card-products {
-    width: 40%;
+    width: 48%;
   }
 }

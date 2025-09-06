@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 100vh;
+  height: 100dvh;
   padding-top: var(--spacing-80);
 }
 
@@ -13,13 +13,14 @@
 .about-us .desc-about p {
   margin-top: var(--spacing-20);
   line-height: 1.5;
+  letter-spacing: 1px;
   font-size: var(--body-text);
+  width: 95%;
 }
 
 .image-about {
   position: relative;
 }
-
 
 @media (min-width: 48rem) {
   .about-us {

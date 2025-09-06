@@ -1,7 +1,3 @@
-.testimonial-container {
-  padding-top: var(--spacing-80);
-}
-
 .testimonial-container .testimoni-card {
   display: flex;
   flex-wrap: wrap;
@@ -17,7 +13,7 @@
   border-radius: var(--spacing-20);
   color: var(--color-amber-light-500);
   border-left: 10px solid var(--color-white);
-  box-shadow: 0 0 10px rgba(0, 0, 0,0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .customer-profile:hover {
@@ -56,9 +52,13 @@
 }
 
 @media (min-width: 48rem) {
+  .testimonial-container {
+    margin-top: var(--spacing-80);
+  }
+
   .testimonial-container .testimoni-card {
     justify-content: center;
-    padding-top: var(--spacing-80);
+    margin-top: var(--spacing-80);
   }
 
   .customer-profile {
