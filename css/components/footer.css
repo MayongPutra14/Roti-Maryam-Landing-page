@@ -2,7 +2,8 @@ footer {
   background-color: var(--color-red-700);
   width: 100%;
   margin-top: var(--spacing-112);
-  padding: 1rem var(--spacing-80);
+  padding-top: var(--spacing-20);
+  /* padding: 1rem var(--spacing-80); */
 }
 
 .logo {
