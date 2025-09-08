@@ -1,14 +1,14 @@
 /* Global */
-@import url('/css/global/fonts.css');
-@import url('/css/global/boilerplate.css');
-@import url('/css/global/buttons.css');
-@import url('/css/global/animations.css');
+@import url('./global/fonts.css');
+@import url('./global/boilerplate.css');
+@import url('./global/buttons.css');
+@import url('./global/animations.css');
 
 /* Components */
-@import url('/css/components/header.css');
-@import url('/css/components/hero-section.css');
-@import url('/css/components/about-us.css');
-@import url('/css/components/our-product.css');
-@import url('/css/components/testimonial.css');
-@import url('/css/components/footer.css');
+@import url('./components/header.css');
+@import url('./components/hero-section.css');
+@import url('./components/about-us.css');
+@import url('./components/our-product.css');
+@import url('./components/testimonial.css');
+@import url('./components/footer.css');
 

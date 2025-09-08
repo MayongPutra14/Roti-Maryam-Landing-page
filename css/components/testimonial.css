@@ -29,11 +29,11 @@
 }
 
 .testimonial-content {
+  font-style: italic;
   font-size: var(--body-text);
   line-height: 1.7;
   color: var(--color-amber-light-500);
   margin: var(--spacing-20) 0;
-  font-style: italic;
 }
 
 .testimonial-author {
