@@ -1,5 +1,4 @@
 # Roti-Maryam-Landing-page
-Mantap 🎉 nice, sudah berhasil reset! Sekarang aku bikinin dokumentasi versi **final** yang sudah rapi, tidak ada markup error, tinggal copy-paste langsung ke `README.md` kamu.
 
 ---
 
